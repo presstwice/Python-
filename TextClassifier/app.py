@@ -1,4 +1,4 @@
-# Version of tutorial relied of out of date num.py 
+# Version of tutorial out of date, num.py installed in the current version of tensorflow obsolete and cannot regress to previous version
 
 import tensorflow as td
 from tensorflow import keras

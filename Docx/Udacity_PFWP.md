@@ -173,10 +173,53 @@ print(my_sentence.format(my_name, my_dog))
 >>> list_of_random_things[1:2]
 [3.4]
 
-* return all elements upto but only including the listed index
+* return all elements upto but not including the listed index
 >>> list_of_random_things[:2]
 [1, 3.4]
 
 * return all elements to the end of the list
 >>> list_of_random_things[1:]
 [3.4, 'a string', True]
+
+# Mutability 
+
+* Whether an object can change its values after it has been created 
+    * Lists are a mutable data type 
+    * Strings are an immutable data type
+
+## Keep in mind
+
+**It's important to keep in mind two things for each data type you are using:**
+
+1. Are the mutable?
+2. Are they ordered?
+
+# List Methods 
+
+* len() returns how many elements are in a list
+* max() returns the greatest element of the list. How the greatest element is determined. For a number is would be the highest number or the highest alphabetical
+* min() is the opposite of max
+* sorted() returns a copy of the list in order from smallest to largest leaving the list unchanged
+    * You can use the reverse=True argument to sort the list in reverse
+* join() 
+
+# Data Types
+
+* An integer is a data type. But it isn't a data structure
+    * A data type is just a way to classify data. A list is a data structure and a data type. 
+* A data type is just a type that classifies data. This can include a primitive (basic) data types like integers, booleans and strings, as well as data structure like lists. 
+* Data structures are containers that organise and group data types together. 
+
+# Tuple
+ 
+* A data type for immutable ordered sequences of elements 
+
+# Set 
+
+* A data type for mutable unordered collections of **unique elements**
+* you can add an element to a set with add()
+* Using pop() you can remove a random element from the set
+
+# Dictionary 
+
+* A data type for mutable objects that store mappings of unique keys to values 

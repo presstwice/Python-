@@ -213,13 +213,49 @@ print(my_sentence.format(my_name, my_dog))
 # Tuple
  
 * A data type for immutable ordered sequences of elements 
+* Tuples are contained within parentheses ()
+* Tuples can be indexed and sliced like a list
 
 # Set 
 
 * A data type for mutable unordered collections of **unique elements**
 * you can add an element to a set with add()
 * Using pop() you can remove a random element from the set
+* A set cannot be sliced like a list or a tuple
+* A set is defined with {} like dictionaries 
+
+set_example = {element1, element2, element3}
 
 # Dictionary 
 
+* A dictionary is a mutable, unordered data structure that contains mappings of keys to values. Because these keys are used to index values, they must be unique and immutable
+
+elements = {"hydrogen": 1, "helium": 2, "carbon": 6}
+
+* Dictionaries can have keys of any immutable type, whether it be integers, tuples or strings
+
 * A data type for mutable objects that store mappings of unique keys to values 
+    * So they are like lists and sets but they store pairs of values 
+    * A key for a dictionary must be immutable, like str, int, float or boolean
+
+dictionary_example = {}
+
+* In python if you use a empty set of {} python will assign it an empty dictionary to that variable
+    * You can use set() to define an empty set
+    * OR dict() to define an empty dictionary too
+
+## Identity Operators 
+
+* is  - evaualates if both sides have the same identity
+* is not - evaulates if both sides have different identities
+
+## get with a Default Value 
+
+>>> elements.get('dilithium')
+None
+>>> elements['dilithium']
+KeyError: 'dilithium'
+>>> elements.get('kryptonite', 'There\'s no such element!')
+"There's no such element!"
+
+

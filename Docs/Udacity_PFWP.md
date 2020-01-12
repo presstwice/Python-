@@ -165,7 +165,7 @@ print(my_sentence.format(my_name, my_dog))
 
 ## Slicing
 
-* You can pull more than one value from a list at a time by using the slicing. When using slicing remember **lower** index is **inclusive** and the **upper** indexdd is **exclusive**
+* You can pull more than one value from a list at a time by using the slicing. When using slicing remember **lower** index is **inclusive** and the **upper** indexd is **exclusive**
 
 >>> list_of_random_things = [1, 3.4, 'a string', True]
 

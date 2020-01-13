@@ -2,8 +2,14 @@ verse_dict =  {'if': 3, 'you': 6, 'can': 3, 'keep': 1, 'your': 1, 'head': 1, 'wh
 print(verse_dict, '\n')
 
 # find number of unique keys in the dictionary
+
+# apprently this isn't the answer
 unique_values = [key for (key,value) in verse_dict.items() if value == 1]
 print (len(unique_values))
+
+# this is the answer
+num_keys = len(verse_dict)
+print(num_keys
 
 
 # find whether 'breathe' is a key in the dictionary

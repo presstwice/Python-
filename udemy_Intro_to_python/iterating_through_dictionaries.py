@@ -14,3 +14,4 @@ for key in cast:
 print("\nIterating through keys and values:")
 for key, value in cast.items(): # using the cast.items and key, value you can print both the pairs
     print("Actor: {}    Role: {}".format(key, value)) # here we use the .format method to assign key and value a respective cast and role 
+

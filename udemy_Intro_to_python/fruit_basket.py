@@ -76,4 +76,4 @@ for key, value in basket_items.items():
     else:
         not_fruit_count += value
 
-print(fruit_count, not_fruit_count)
+print(fruit_count, not_fruit_count)   

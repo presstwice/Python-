@@ -1,6 +1,8 @@
 # break terminates a loop
 # continue skips an iteration of a loop once 
 
+# in this example the best keyword would be using a continue because it keeps us under the cargo limit
+
 manifest = [("bananas", 15), ("mattresses", 24), ("dog kennels", 42), ("machine", 120), ("cheeses", 5)]
 
 # the code breaks the loop when weight exceeds or reaches the limit

@@ -11,12 +11,3 @@ house = [["hallway", 11.25],
 for room, area in house:
     print("the " + str(room) + " is " + str(area) + " sqm")
 
-# dictionary looping iterations 
-
-# Definition of dictionary
-europe = {'spain':'madrid', 'france':'paris', 'germany':'berlin',
-          'norway':'oslo', 'italy':'rome', 'poland':'warsaw', 'austria':'vienna' }
-          
-# Iterate over europe
-for k, v in europe.items():
-    print("the capital of " + k + " is " + v)

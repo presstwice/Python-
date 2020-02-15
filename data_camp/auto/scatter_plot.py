@@ -27,3 +27,6 @@ df[cols].plot(kind='box', subplots=True)
 
 # Display the plot
 plt.show()
+
+# print the mean mpg
+print(df.mpg.mean())

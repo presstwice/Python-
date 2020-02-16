@@ -30,3 +30,5 @@ plt.show()
 
 # print the mean mpg
 print(df.mpg.mean())
+
+print(df.mpg.describe())

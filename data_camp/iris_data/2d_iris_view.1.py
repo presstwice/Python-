@@ -10,3 +10,9 @@ iris = pd.read_csv('iris_data/iris.txt', sep=',',
 print(iris.head())
 
 print(iris['species'].describe())
+
+hello = iris[iris['species'] == 'Iris-setosa']
+
+print(hello)
+
+
